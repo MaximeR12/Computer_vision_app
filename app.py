@@ -19,5 +19,5 @@ if uploaded_files :
         st.image(image_base)            # L'image non moidifiée/prédite s'affiche
         result = model(image_base)      # Prediction effectuée sur l'image
         st.image(result[0].plot())      # la prediction est une liste mais la methode plot sert a retransformer en image
-
+        print(result)
 
