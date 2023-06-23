@@ -3,7 +3,7 @@
 ############################
 from ultralytics import YOLO
 
-model = YOLO("models/bestl.pt")
+model = YOLO("bestS.pt")
 
 ############################
 #      Streamlit app       #
